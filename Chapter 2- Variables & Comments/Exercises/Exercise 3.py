@@ -1,13 +1,7 @@
-name = "\t  Aben George  \n"
+name = "\t Aben Abey\n"
 
-print("Unmodified:")
-print(name)
+print("Name with whitespace: ", name)
 
-print("\nUsing lstrip():")
-print(name.lstrip())
-
-print("\nUsing rstrip():")
-print(name.rstrip())
-
-print("\nUsing strip():")
-print(name.strip())
+print("\nName after using lstrip():", name.lstrip())
+print("Name after using rstrip():", name.rstrip())
+print("Name after using strip():", name.strip())
